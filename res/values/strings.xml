@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <string name="app_name">AndroidRobo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+ 
+    <string name="productid_label">Code</string>
+    <string name="productname_label">Description</string>
+    <string name="productprice_label">Price</string>
+    <string name="productqty_label">Quantity</string>
+ 
+    <string name="productbutton_save_label">Save</string>
+    <string name="productbutton_delete_label">Delete</string>
+    <string name="productbutton_add_label">New</string>
+ 
+    <string formatted="false" name="list_product_code_format">Code %s</string>
+    <string formatted="false" name="list_product_description_format">Name %s</string>
+    <string formatted="false" name="list_product_price_format">Price %s</string>
+ 
+</resources>

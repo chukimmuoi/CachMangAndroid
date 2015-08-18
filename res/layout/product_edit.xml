@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ 
+        <TextView
+            android:id="@+id/labelProductId"
+            android:layout_width="0px"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/productid_label" />
+ 
+        <EditText
+            android:id="@+id/editTextProductId"
+            android:layout_weight="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ 
+        <TextView
+            android:id="@+id/labelProductName"
+            android:layout_width="0px"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/productname_label" />
+ 
+        <EditText
+            android:id="@+id/editTextProductName"
+            android:layout_weight="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/labelProductPrice"
+            android:layout_width="0px"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/productprice_label" />
+ 
+        <EditText
+            android:id="@+id/editTextProductPrice"
+            android:layout_weight="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <TextView
+            android:id="@+id/labelProductQuantity"
+            android:layout_width="0px"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/productqty_label" />
+ 
+        <EditText
+            android:id="@+id/editTextProductQty"
+            android:layout_weight="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+ 
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <Button
+            android:id="@+id/buttonProductSave"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/productbutton_save_label" />
+ 
+        <Button
+            android:id="@+id/buttonProductDelete"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/productbutton_delete_label" />
+ 
+    </LinearLayout>
+ 
+</LinearLayout>
